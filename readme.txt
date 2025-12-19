@@ -1,3 +1,3 @@
 awscli-data
 
-please read me
+please read command.txt file
