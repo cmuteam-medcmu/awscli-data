@@ -10,19 +10,19 @@
    Default output format [None]:json
 
 ## AWS check connection
-   aws s3 ls s3://impdh-coe68/
+   aws s3 ls s3://your_bucket/
 
 ## AWS create folder key
-   aws s3api put-object --bucket your_bucket --key tissue/wgs
+   aws s3api put-object --bucket your_bucket --key SAMPLE/SEQUENCING
 
 ## AWS copy a file from your directory to bucket
-   aws s3 cp file.txt s3://your_bucket/path/to/file.txt
+   aws s3 cp your_file.txt s3://your_bucket/path/to/your_file.txt
 
 ## AWS download a file to your directory
-   aws s3 cp s3://your_bucket/path/to/file.txt .
+   aws s3 cp s3://your_bucket/path/to/your_file.txt .
 
 ## AWS copy multiple files in subfolder
    aws s3 cp "path/to/your/directory" s3://your_bucket --recursive
 
 ## AWS delete a file
-   aws s3 rm s3://your_bucket/path/to/file.txt
+   aws s3 rm s3://your_bucket/path/to/your_file.txt
