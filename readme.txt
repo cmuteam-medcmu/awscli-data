@@ -6,7 +6,7 @@
 
    AWS Access Key ID [None]:
    AWS Secret Access Key [None]:
-   Default region name [None]:ap-northeast-1
+   Default region name [None]:ap-southeast-7
    Default output format [None]:json
 
 ## AWS check connection
